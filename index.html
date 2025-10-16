@@ -24,6 +24,13 @@
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 20px;
+            border-radius: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
         h1 {
             color: #5C3A19;
             font-size: 3em;
@@ -77,11 +84,20 @@
             color: #8B5A2B;
             font-size: 0.9em;
         }
+        .footer a {
+            color: #5C3A19;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🧩 Word Clue</h1>
+        <img src="assets/icon.png" alt="Word Clue Logo" class="logo">
+        <h1>Word Clue</h1>
         <p class="subtitle">The Ultimate Word Puzzle Game</p>
         
         <div class="description">
@@ -92,14 +108,15 @@
         <div class="download-section">
             <h2 class="download-title">Download Now</h2>
             <div class="store-links">
-                <a href="#" class="store-link">📱 App Store</a>
-                <a href="#" class="store-link">🤖 Google Play</a>
+                <a href="https://apps.apple.com/us/app/word-clue-crossword-game/id6752798141" class="store-link" target="_blank">📱 App Store</a>
+                <a href="#" class="store-link">🤖 Google Play (Coming Soon)</a>
             </div>
         </div>
         
         <div class="footer">
             <p>© 2024 Word Clue. All rights reserved.</p>
             <p>Official website for Word Clue mobile game</p>
+            <p><a href="privacy-policy.html">Privacy Policy</a></p>
         </div>
     </div>
 </body>
